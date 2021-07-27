@@ -1,0 +1,20 @@
+module.exports = {
+	unknownCommand: "That command does not exist, please run `s!help`.",
+	notInGuild: "This command can only be used in a guild.",
+	notAuth: "This command can only be used by an admin.",
+	error: "If this continues to happen please contant an HR.",
+	adminRole: "Admin",
+	unknownRole: "This server is missing the admin role, please contact your server administrator.",
+	notSettingUpEnd: "You have not setup the form.",
+	setSubmissionsReply: "Form submissions will now be sent to you.",
+	setSubmissionsChannelReply: "Form submissions will now be posted in this channel.",
+	submissionsNotSet: "Submissions have not been set, please contact your server administrator",
+	applicationCancel: "Form canceled.",
+	applicationFormFalseCancel: "You have not started a form yet.",
+	applicationSent: "Form sent.",
+	formSetupInProgress: "Someone else is already configuring the form.",
+	newFormSetup: "The new form has been setup.",
+	formReceiveMessage: params => `**${params.user} has submitted a form.**`,
+	formApplyMessage: params => `Application commands: \`\`\`${params.botChar}cancel, ${params.botChar}redo\`\`\``,
+	formSetupMessage: params => `Enter questions and enter \`${params.botChar}endsetup\` when done.`
+}
